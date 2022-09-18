@@ -28,6 +28,7 @@
       width:60%;
     display:flex;
     justify-content: space-evenly;
+    /* background-color:red; */
     
 }
 .mid-sec-img{
@@ -46,11 +47,18 @@
         
     }
     .name-tag{
-        color: white;
+        color:grey;
 
     }
     .btn:hover{
         transition: 1s;
         color: white;
         transform: scale(1.05);
+    }
+
+    
+    .mid-sec-profil1:hover,.mid-sec-profil2:hover,.mid-sec-profil3:hover,.mid-sec-profil4:hover,.mid-sec-profil5:hover,.name-tag:hover{
+        transition:1s;
+        transform: scale(1.05);
+        text-transform :blue;
     }
